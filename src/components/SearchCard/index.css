@@ -1,0 +1,59 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85vw;
+}
+
+.text-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.domain-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.time-accessed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 28px;
+  width: 28px;
+  margin-top: 12px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 20px;
+  font-weight: 450;
+  font-size: 1rem;
+}
+
+.domain-url {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.delete-button {
+  border-style: none;
+  background-color: transparent;
+}
